@@ -58,7 +58,9 @@ echo( '<nav class="navbar navbar-default">
 
  ?>
 
-
+<div class="container jumbotron" style="background-color:#ededed">
+  <h1>Welcome to this sample webpage!</h1>
+</div>
 <div class="container-fluid">
 
 <table id="table1" class=" table table-hover table-bordered" style="width:50%;margin-left:20%;">
@@ -85,6 +87,7 @@ $(document).ready(function() {
      $('table tr th').css({"background-color": "#4245f4 ", "color": "white","text-align":"center"});
   $("#txtbx").hide();
   $("#txtbxROW").hide();
+  $('kbd').hide();
 
 });
 
@@ -176,7 +179,12 @@ $('#copyButtonROW').css("background-color","black");
 </script>
 
 
-
+<ul class="list-group container" style="width:30%;">
+  <li class="list-group-item">
+    <span class="badge">14</span>
+    MSANS
+  </li>
+</ul>
 
 
 
