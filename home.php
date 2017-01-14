@@ -18,7 +18,10 @@
 
   </head>
   <body>
-
+<div class="" style="width:0px;height:0px;color:white;">
+  <input id="txtbx" style="border-color:white;border-width:0px;" ></input>
+  <input id="txtbxROW" style="border-color:white;border-width:0px;" ></input>
+</div>
 <?php
 
 $servername = "localhost:3306";
@@ -41,22 +44,23 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
  $row = $result->fetch_array(MYSQLI_NUM);
 
-// echo( '<nav class="navbar navbar-default">
-//   <div class="container-fluid">
-//     <div class="navbar-header">
-//       <a class="navbar-brand" href="#">RegGate</a>
-//     </div>
-//     <ul class="nav navbar-nav" id="li1s">
-//      '.$row[0].'
-//     </ul>
-//   </div>
-// </nav>');
+echo( '<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">RegGate</a>
+    </div>
+    <ul class="nav navbar-nav" id="li1s">
+     '.$row[0].'
+    </ul>
+  </div>
+</nav>');
 }
 
  ?>
 
 
 <div class="container-fluid">
+
 <table id="table1" class=" table table-hover table-bordered" style="width:50%;margin-left:20%;">
   <tr>
     <th>Name</th>
@@ -69,39 +73,112 @@ if ($result->num_rows > 0) {
     <td>2017</td>
 
   </tr>
+
 </table>
 
 </div>
+
+
 <script type="text/javascript">
 $(document).ready(function() {
    // Stuff to do as soon as the DOM is ready
      $('table tr th').css({"background-color": "#4245f4 ", "color": "white","text-align":"center"});
+  $("#txtbx").hide();
+  $("#txtbxROW").hide();
 
 });
 
 
+
+
 </script>
-<kbd  onclick="copyToClipboard('vv')">CTRL+C</kbd>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('table tr ').click(function(){
+    var x1 = $(this).text().trim();
+ $('#copyButton').fadeIn();
+    $("#txtbx").show();
+    $("#txtbxROW").show();
+  $("#txtbxROW").val(x1);
+
+
+  console.log("Selected: "+ x);
+  });
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('table tr td').click(function(){
+    var x = $(this).text().trim();
+ $('#copyButton').fadeIn();
+  $('#copyButtonROW').fadeIn();
+    $("#txtbx").show();
+    $("#txtbxROW").show();
+
+  $("#txtbx").val(x);
+
+
+  console.log("Selected: "+ x);
+  });
+});
+</script>
+
+  <kbd id ="copyButton">CTRL+C TEXT</kbd>
+  <kbd id ="copyButtonROW">CTRL+C ROW</kbd>
+
+
 <script>
   $(document).ready(function(){
-    $('kbd').click(function(){
+    $('#copyButton').click(function(){
+
       $(this).css("background-color","green");
+      $("#txtbx").select();
+      document.execCommand("copy");
+        $("#txtbx").hide();
+        $("#txtbxROW").hide();
+      console.log("Copied: "+ $("#txtbx").val());
+
+      setTimeout(function () {
+        $('#copyButton').css("background-color","black");
+$('#copyButtonROW').css("background-color","black");
+      }, 300);
+      setTimeout(function () {
+        $('#copyButton').fadeOut();
+         $('#copyButtonROW').fadeOut();
+      }, 700);
+
     });
   });
 </script>
-<input type="text" id="vv" value="hello">
+
 <script>
-function copyToClipboard(elementId) {
+  $(document).ready(function(){
+    $('#copyButtonROW').click(function(){
+
+      $(this).css("background-color","green");
+      $("#txtbxROW").select();
+      document.execCommand("copy");
+        $("#txtbx").hide();
+          $("#txtbxROW").hide();
+      console.log("Copied: "+ $("#txtbxROW").val());
+
+      setTimeout(function () {
+          $('#copyButton').css("background-color","black");
+$('#copyButtonROW').css("background-color","black");
+      }, 300);
+      setTimeout(function () {
+         $('#copyButton').fadeOut();
+          $('#copyButtonROW').fadeOut();
+      }, 700);
+
+    });
+  });
+</script>
 
 
-  var aux = document.getElementById("vv");
-  document.body.appendChild(aux);
-  aux.select();
-  document.execCommand("copy");
-  document.body.removeChild(aux);
 
-}
- </script>
+
+
 
   </body>
 </html>
