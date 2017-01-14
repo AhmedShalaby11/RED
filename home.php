@@ -49,6 +49,7 @@ echo( '<nav class="navbar navbar-default">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">RegGate</a>
     </div>
+    
     <ul class="nav navbar-nav" id="li1s">
      '.$row[0].'
     </ul>
