@@ -44,29 +44,7 @@
 
 </div>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('li').click(function(){
-      $('li').removeClass("active");
-      $(this).addClass("active");
-      $('#ul_div_body').empty();
-      if ($(this).attr('name')== "data"){
-$('#ul_div_body').append("<h3>this is data</h3>")
 
-
-        }
-        else if ($(this).attr('name')== "action") {
-$('#ul_div_body').append("<h3>this is action</h3>")
-        }
-        else if ($(this).attr('name')== "messages") {
-$('#ul_div_body').append("<h3>this is messages</h3>")
-        }
-
-    })
-
-  });
-
-</script>
 
 
   </body>

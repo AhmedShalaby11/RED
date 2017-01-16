@@ -30,14 +30,14 @@
     <img src="rohumbus.png" id="vflogo" alt="" style="z-index:-1;float:left;margin-left:-60%;margin-top:-1.5%;margin-bottom:-40%;">
 <div class="container">
 <h3>Welcome to the Integration Management's Portal</h3>
-<div id="welcomePanel" class="bs-callout bs-callout-danger" > <h4>DSLAMS Migration became smart,safe and accurate!</h4> <p>For a smart workflow,the Integration Management's Portal provides a fast and accurate interfaces migration for single and bulk operations.</p> </div>
+<div id="welcomePanel" class="bs-callout bs-callout-danger" > <h4>DSLAMS Migration became smart,safe and accurate!</h4> <p>For a smart workflow,the Integration's Portal provides a fast and accurate interfaces migration for single and bulk operations.</p> </div>
 </div>
 
 <div class="container">
   <ul class="nav nav-tabs">
-  <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="getDataTable()" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs</a></li>
+  <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="getDataTable()" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs <span class="badge">1000</span></a> </li>
   <li role="presentation" id="li_action" name="action"><a href="#" onClick="action();" ><span class="glyphicon glyphicon-level-up"></span> Update Bulk MSANs</a></li>
-  <li role="presentation" id="li_messages" name="messages"><a href="#" onClick="action2();" ><span class="glyphicon glyphicon-phone-alt"></span> Update Landline</a></li>
+  <li role="presentation" id="li_messages" name="messages"><a href="#" onClick="action2();" ><span class="glyphicon glyphicon-phone-alt"></span> Update a Landline</a></li>
 </ul>
 <div class="" id="ul_div_body">
 
