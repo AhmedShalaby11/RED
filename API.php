@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
- $sql = "select * from redgate.DATAT limit 1000 ";
+ $sql = "select * from redgate.datat limit 1000 ";
 $result = $conn->query($sql);
 echo"<div class='container'>";
 echo "<table id='example' class='display' cellspacing='0' width='100%'>"; // start a table tag in the HTML
