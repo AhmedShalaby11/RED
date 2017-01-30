@@ -6,6 +6,7 @@ border: 1px solid #eee;
 border-left-width: 5px;
 border-left-color:purple;
 border-radius: 3px;
+margin-left: 10px;
 }
 
 .bs-callout h4 {
@@ -31,7 +32,10 @@ border-radius: 3px;
 margin-top: 0;
 margin-bottom: 5px;
 }
-
+/*.header_container
+{
+margin-left:70px;
+}*/
 .bs-callout-red p:last-child {
 margin-bottom: 0;
 }
@@ -39,4 +43,10 @@ margin-bottom: 0;
 .textInput
 {
     width:500px;
+}
+
+
+#vflogo
+{
+  z-index:-1;float:left;margin-left:-60%;margin-top:-1.5%;margin-bottom:-40%;
 }

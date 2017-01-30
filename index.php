@@ -1,16 +1,9 @@
 
 <html>
-    <meta charset="utf-8">
 
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="datatables.css">
-    <script type="text/javascript" src="datatables.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/jq-2.2.4/dt-1.10.13/af-2.1.3/b-1.2.4/b-colvis-1.2.4/cr-1.3.2/r-2.1.0/rr-1.2.0/sc-1.4.2/se-1.2.0/datatables.min.css"/>
-
-
+<head>
+<meta charset="utf-8">
+<?php  include 'lib1.php';?>
   </head>
 
 
@@ -27,18 +20,30 @@
         </ul>
       </div>
     </nav>
-    <img src="uploads/images/rohumbus.png" id="vflogo" alt="" style="z-index:-1;float:left;margin-left:-60%;margin-top:-1.5%;margin-bottom:-40%;">
+    <img src="uploads/images/rohumbus.png" id="vflogo" alt="" ></img>
+    <div class="header_container">
 <div class="container">
 <h3>Welcome to the Integration Management's Portal</h3>
 <div id="welcomePanel" class="bs-callout bs-callout-danger" > <h4>DSLAMS Migration became smart,safe and accurate!</h4> <p>For a smart workflow,the Integration's Portal provides a fast and accurate interfaces migration for single and bulk operations.</p> </div>
 </div>
+<?php
+include 'dbconfig.php';
+  $sql = "Select Count(*) as count from redgate.table1;";
+  $result = $conn->query($sql);
+  $row=mysqli_fetch_assoc($result);
 
+
+
+ ?>
 <div class="container">
   <ul class="nav nav-tabs">
-  <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="getDataTable()" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs <span class="badge">1000</span></a> </li>
+    <!-- 1.a -->
+  <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="append_userMSANtable();" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs <span  class="badge"><?php echo $row["count"]?></span></a> </li>
   <li role="presentation" id="li_action" name="action"><a href="#" onClick="insertUpdatePanel();" ><span class="glyphicon glyphicon-level-up"></span> Update Bulk MSANs</a></li>
-  <li role="presentation" id="li_messages" name="messages"><a href="#" onClick="action2();" ><span class="glyphicon glyphicon-phone-alt"></span> Update a Landline</a></li>
+  <!-- <li role="presentation" id="li_messages" name="messages"><a href="#" onClick="action2();" ><span class="glyphicon glyphicon- phone-alt"></span> Update a Landline</a></li> -->
 </ul>
+
+
 <div class="" id="ul_div_body_panel">
 
 </div>
@@ -69,19 +74,34 @@ $(document).ready(function() {
 
 
 <script type="text/javascript">
-  function getDataTable(){
+function append_userMSANtable(){
   $('#ul_div_body_panel').empty();
 $('#ul_div_body').empty();
-if ($('#example').length == 1){
+if ($('#input_getCurrentMSANs').length !== 1){
+$("#ul_div_body").append("<table class='container' id='input_getCurrentMSANs'><tr><td><span>Current GigabitEthernet</span></td><td><input type='text' id='old_gigabit' name='old_gigabit'></td></tr><tr><td><span>SVLAN</span></td><td><input type='text' id='SVLAN' name='SVLAN' ></td></tr><tr><td>&nbsp</td><td><button type='button' id='get_msanData' onClick='getDataTable();' name='get_msanData'>Qurey</button></td></tr></table>");
+
+}
+
+}
+  function getDataTable(){
+
+if ($('#table_MSAN').length == 1){
 $('#ul_div_body').empty();
 }else {
+
+var old_gigabit = $("#old_gigabit").val();
+var SVLAN = $("#SVLAN").val();
   $.ajax({
-      url:'api.php',
+      url:'getCurrentMSAN.php',
+      type: "POST",
+              data: ({old_gigabit: old_gigabit,SVLAN:SVLAN}),
       success: function(Response){
         $(this).addClass('Active');
+
     $("#ul_div_body").append("<img  style='float:right;width:90px;margin-right:10%;' src='uploads/images/db-10d41bd2.png' id='databaseLogo'/><div class='bs-callout-red bs-callout-danger'> <h5><h4 style='color:red;'>MSANs Database</h4> The following tables shows the uploaded MSANS.</h5></div>");
           $('#ul_div_body').append(Response);
-            $('#example').DataTable();
+$('#table_MSAN').DataTable();
+$("#input_getCurrentMSANs").remove();
 
 }
 })
@@ -96,7 +116,6 @@ $("#ul_div_body_panel").empty();
     $('#ul_div_body').append("<div id='uploadContainer' class='container'></div>");
     $('#ul_div_body_panel').append("<ul style='margin-top:20px;' class='nav nav-tabs'><li role='presentation' id='uploadContainer_upload' ><a onClick='append_uploadDiv();' href='#'>Upload data</a><span class=''></span></li><li  id='uploadcontainer_comparison' role='presentation'><a href='#'  onClick='append_comparisonDiv();'>Comparison</a></li></ul>");
 
-
 }
 function action2(){
 
@@ -108,39 +127,15 @@ function action2(){
 function postRequest(){
 
 if ($("#fileToUpload").val() !== null)
-
 {
 
 }
-else
-{ // 1.Check/Test this function();
-
-    $(document).ready(function(){
-      $("#btnupload").click(function(){
-         $.ajax({
-                type: 'POST',
-                url: 'processing.php',
-                success: function(data) {
-
-
-                }
-
-            });
-      }
-    })
-
-   }
-}
-
-function merge_data()
-{
-//start from this function
-
 
 
 }
+
+
 </script>
-
 
 <script>
 function append_uploadDiv()
@@ -149,18 +144,47 @@ function append_uploadDiv()
 
 $("#ul_div_body").empty();
     $("#ul_div_body").append("<img  style='float:right;width:90px;margin-right:10%;margin-top:3%;' src='uploads/images/documentslogo.png' id='databaseLogo'/><div class='bs-callout-red bs-callout-danger'> <h5><h4 style='color:red'>Bulk Update Wizard</h4> </br> 1.Select your file with <kbd>CSV</kbd> format. </br> 2.Click <kbd>Upload file</kbd> to insert the data. </br> 3.File is seperated -cells- with <kbd>,</kbd> .</h5></div>");
-    $('#ul_div_body').append("<table style='width:40%;' class='container'><form action='upload.php' method='post' name='form1' onsubmit='postRequest();return false;' enctype='multipart/form-data' ><tr><td><input class='form-control textInput' type='file' name='fileToUpload' id='fileToUpload' ></td><td><input  type='submit' class='btn btn-danger' value=' Upload File'  id='btnUpload' name=' submit' ></td></form>");
+  $("#ul_div_body").append("<form action='getData.php' method='post' enctype='multipart/form-data'><table><tr><td>Select File </td><td><input type='file' name='fileToUpload' id='fileToUpload'></td><td>&nbsp;</td><td><input type='submit' value='Upload File' class='btn btn-sm btn-danger' name='submit'></td></tr></table></form>");
   $('#uploadContainer_upload').addClass('Active');
 $("#ul_div_body").hide();
     $("#ul_div_body").slideDown(700);
 
 }
+
+
+function merge(){
+  $('#button_staging_merge').click(function(){
+    $.ajax({
+              type: 'POST',
+              url: 'merge.php',
+               success: function(data) {
+                 $('#ul_div_body').empty();
+           $('#ul_div_body').append(data);
+
+           }
+  });
+  });
+}
+function commit(){
+  $('#button_Commit').click(function(){
+    $.ajax({
+              type: 'POST',
+              url: 'commit.php',
+               success: function(data) {
+                 $('#ul_div_body').empty();
+           $('#ul_div_body').append(data);
+
+           }
+  });
+  });
+}
+
 function append_comparisonDiv ()
 {
   $('ul li').removeClass('Active');
   $("#ul_div_body").empty();
   $.ajax({
-      url:'comparison.php',
+url:'comparison.php',
       success: function(Response){
 
         $("#uploadcontainer_comparison").addClass('Active');
@@ -170,7 +194,7 @@ function append_comparisonDiv ()
           $('#ul_div_body').append(Response);
 
       $('#example').DataTable();
-      $('#ul_div_body').append(" <button id='button_staging_merge' class='btn btn-danger' onclick='merge_data();'>Merge</button> </br>");
+
       }
 
   });
@@ -178,7 +202,11 @@ function append_comparisonDiv ()
 
 }
 
+</script>
+
+
 
 </script>
+
   </body>
 </html>

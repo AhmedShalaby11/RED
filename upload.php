@@ -28,7 +28,7 @@
 </div>
 <div class="container" id="div_bar">
   <h2>Your Data is being processing...</h2>
-  <h4>Please be patient</h4> 
+  <h4>Please be patient</h4>
   <div class="progress" >
 <div class="progress-bar progress-bar-striped progress-bar-danger  active" role="progressbar" id="prbar" aria-valuemin="0" aria-valuemax="100" >Starting..
     </div>
@@ -59,7 +59,7 @@ setTimeout(explode, 1000);
 
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
-   
+
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
