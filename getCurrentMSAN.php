@@ -5,7 +5,7 @@
 
 include 'dbconfig.php';
 $sql = "
-Select ADSL_USER_NAME,NAS_PORT_ID,DSLAM from redgate.$testing_table where SUBSTR(SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'-')),
+Select ADSL_USER_NAME,NAS_PORT_ID,DSLAM from $testing_table where SUBSTR(SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'-')),
  instr(NAS_PORT_ID,':')) in (':$SVLAN-')
 and SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'.' ))='GigabitEthernet $old_gigabit.';";
 
@@ -17,8 +17,9 @@ echo " <thead>
             <tr>
             <th>Landline</th>
             <th>Interface</th>
+              <th>DSLAM</th>
             <th>SVLAN</th>
-            <th>DSLAM</th>
+
 
             </tr>
         </thead>
@@ -26,8 +27,9 @@ echo " <thead>
             <tr>
                 <th>Landline</th>
                 <th>Interface</th>
+                  <th>DSLAM</th>
                 <th>SVLAN</th>
-                <th>DSLAM</th>
+
 
             </tr>
         </tfoot><tbody>";
@@ -37,6 +39,26 @@ echo "<tr><td>" . $row[0] . "</td><td>" . $row[1] . "</td><td>" . $row[2] . "</t
 
 echo "</tbody></table>"; //Close the table in HTML
 echo "</div>";
+
+//get the count for the badge
+$sql2 = "
+Select count(DSLAM) from $testing_table where SUBSTR(SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'-')),
+ instr(NAS_PORT_ID,':')) in (':$SVLAN-')
+and SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'.' ))='GigabitEthernet $old_gigabit.';";
+
+ // $sql = "select * from redgate.table1 ";
+$sql_count_badge = $conn->query($sql2);
+while($row = $sql_count_badge->fetch_array(MYSQLI_NUM)){   //Creates a loop to loop through results
+echo "<script>$('#msan_count').text('".$row[0]."');</script>";
+
+}
+
+
+
+
+
+
+
 
 
 

@@ -21,14 +21,14 @@ $('#prbar').text('$bar_30');
 function explode2(){
 $('#prbar').css('width','50%');
 $('#prbar').removeClass('progress-bar-danger');
-$('#prbar').addClass('progress-bar-warning');
+$('#prbar').addClass('progress-bar-danger');
 $('#prbar').text('$bar_50');
 
 
 function explode3(){
 $('#prbar').css('width','80%');
 $('#prbar').removeClass('progress-bar-warning');
-$('#prbar').addClass('progress-bar-primary');
+$('#prbar').addClass('progress-bar-danger');
 $('#prbar').text('$bar_80');
 
 
@@ -41,13 +41,13 @@ $('#div_bar').slideUp(2000);
   $bar_action
 
 }
-setTimeout(explode4, 5000);
+setTimeout(explode4, 2000);
 
 }
-setTimeout(explode3, 3500);
+setTimeout(explode3, 1000);
 
 }
-setTimeout(explode2, 2500);
+setTimeout(explode2, 1000);
 }
 setTimeout(explode, 500);
 

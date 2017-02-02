@@ -8,7 +8,8 @@ $servername = "localhost:3306";
 $username = "root";
 $password = "ahmedtato1";
 $database = "redgate";
-$testing_table ="radius";
+$testing_table ="redgate.radius";
+$testing_table2 = "table_id_log";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);

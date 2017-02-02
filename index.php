@@ -3,7 +3,8 @@
 
 <head>
 <meta charset="utf-8">
-<?php  include 'lib1.php';?>
+<?php  include 'lib1.php';include 'access.php';
+?>
   </head>
 
 
@@ -11,11 +12,11 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="home2.php">Integration Portal</a>
+          <a class="navbar-brand" href="index.php">Integration Portal</a>
         </div>
         <ul class="nav navbar-nav" id="li1s">
         <li><a href="#"></a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Administration</a></li>
+        <li id="admin_panel"><a href="superusr.php"><span class="glyphicon glyphicon-user"></span> Administration</a></li>
 <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
         </ul>
       </div>
@@ -23,7 +24,8 @@
     <img src="uploads/images/rohumbus.png" id="vflogo" alt="" ></img>
     <div class="header_container">
 <div class="container">
-<h3>Welcome to the Integration Management's Portal</h3>
+<h2 style="text-align:center;">Integration Management's Portal</h2>
+<h4>Welcome, <?php echo $local_username?></h4>
 <div id="welcomePanel" class="bs-callout bs-callout-danger" > <h4>DSLAMS Migration became smart,safe and accurate!</h4> <p>For a smart workflow,the Integration's Portal provides a fast and accurate interfaces migration for single and bulk operations.</p> </div>
 </div>
 <?php
@@ -38,8 +40,8 @@ include 'dbconfig.php';
 <div class="container">
   <ul class="nav nav-tabs">
     <!-- 1.a -->
-  <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="append_userMSANtable();" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs <span  class="badge"><?php echo $row["count"]?></span></a> </li>
-  <li role="presentation" id="li_action" name="action"><a href="#" onClick="insertUpdatePanel();" ><span class="glyphicon glyphicon-level-up"></span> Update Bulk MSANs</a></li>
+  <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="append_userMSANtable();" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs <span id='msan_count'  class="badge"></span></a> </li>
+  <!-- <li role="presentation" id="li_action" name="action"><a href="#" onClick="insertUpdatePanel();" ><span class="glyphicon glyphicon-level-up"></span> Update Bulk MSANs</a></li> -->
   <!-- <li role="presentation" id="li_messages" name="messages"><a href="#" onClick="action2();" ><span class="glyphicon glyphicon- phone-alt"></span> Update a Landline</a></li> -->
 </ul>
 
@@ -72,19 +74,22 @@ $(document).ready(function() {
 
 </script>
 
-
 <script type="text/javascript">
 function append_userMSANtable(){
   $('#ul_div_body_panel').empty();
 $('#ul_div_body').empty();
 if ($('#input_getCurrentMSANs').length !== 1){
-$("#ul_div_body").append("<table class='container' id='input_getCurrentMSANs'><tr><td><span>Current GigabitEthernet</span></td><td><input type='text' id='old_gigabit' name='old_gigabit'></td></tr><tr><td><span>SVLAN</span></td><td><input type='text' id='SVLAN' name='SVLAN' ></td></tr><tr><td>&nbsp</td><td><button type='button' id='get_msanData' onClick='getDataTable();' name='get_msanData'>Qurey</button></td></tr></table>");
+$("#ul_div_body").append("<table class='container table ' style='width:500px;' id='input_getCurrentMSANs'><tr><td><span>Current GigabitEthernet</span></td><td><input type='text'  id='old_gigabit' placeholder ='3/4/5' name='old_gigabit' required></td></tr><tr><td><span>SVLAN</span></td><td><input type='text' id='SVLAN' placeholder='3560' name='SVLAN' required></td></tr><tr><td>&nbsp</td><td><button type='button' id='get_msanData' onClick='getDataTable();' name='get_msanData' class='btn btn-danger btn-sm'>Submit</button></td></tr></table>");
 
 }
 
 }
   function getDataTable(){
-
+    if($("#old_gigabit").val() =="" || $("#SVLAN").val() =="")
+    {$('#error').remove();
+      $('#ul_div_body').append("<h3 id='error'>Please check inputs</h3>");
+      return false;
+    }
 if ($('#table_MSAN').length == 1){
 $('#ul_div_body').empty();
 }else {
@@ -98,7 +103,10 @@ var SVLAN = $("#SVLAN").val();
       success: function(Response){
         $(this).addClass('Active');
 
-    $("#ul_div_body").append("<img  style='float:right;width:90px;margin-right:10%;' src='uploads/images/db-10d41bd2.png' id='databaseLogo'/><div class='bs-callout-red bs-callout-danger'> <h5><h4 style='color:red;'>MSANs Database</h4> The following tables shows the uploaded MSANS.</h5></div>");
+    $("#ul_div_body").append("<img  style='float:right;width:90px;margin-right:10%;margin-top:1%;' src='uploads/images/db-10d41bd2.png' id='databaseLogo'/><div class='bs-callout-red bs-callout-danger'> <h5><h4 style='color:red;'>MSANs Database</h4> The following table shows the current customers on Interface <strong><span id='span_interface'></span></strong> with SVLAN <strong><span id='span_SVLAN'></span><strong>.</h5></br></br> Migrate to <input type='text' id='new_gigabit' name=''/> <button type='button' onClick='merge();' id='button_staging_merge' class='btn btn-sm btn-danger' name='button'>Migrate</button> </div>");
+$("#span_interface").text(old_gigabit);
+$("#span_SVLAN").text(SVLAN);
+
           $('#ul_div_body').append(Response);
 $('#table_MSAN').DataTable();
 $("#input_getCurrentMSANs").remove();
@@ -153,17 +161,26 @@ $("#ul_div_body").hide();
 
 
 function merge(){
-  $('#button_staging_merge').click(function(){
+
+
+var old_gigabit1 = $("#span_interface").text();
+var new_gigabit1 = $("#new_gigabit").val();
+var SVLAN1 = $("#span_SVLAN").text();
+// alert("old:" + old_gigabit +"/n new: " +new_gigabit +"/n SVLAN:"+ SVLAN);
     $.ajax({
               type: 'POST',
               url: 'merge.php',
+              data: ({old_gigabit:old_gigabit1,new_gigabit:new_gigabit1,SVLAN:SVLAN1}),
                success: function(data) {
                  $('#ul_div_body').empty();
            $('#ul_div_body').append(data);
+ //response here
 
-           }
+
+        }
+
   });
-  });
+
 }
 function commit(){
   $('#button_Commit').click(function(){
