@@ -64,6 +64,13 @@ $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+$file = fopen("$target_file", 'r');
+$linecount = 0;
+while(!feof($file)){
+   $line = fgets($file);
+  $linecount++;
+
+}
 
 // Check if file already exists
 // if (file_exists($target_file)) {
@@ -83,15 +90,15 @@ if($imageFileType != "csv") {
 }
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
-    echo  "<h5 style='margin-left:35%;'>Sorry,your file wasn't uploaded</h5>";
-        echo "<tr><button style='width:200px;margin-left:35%;text-align:center;' class='btn btn-danger' ><a style='color:white;' href='home2.php'>Back</a></button></tr>";
+    // echo  "<h5 style='margin-left:35%;'>Sorry,your file wasn't uploaded</h5>";
+        echo "<tr><button style='width:200px;margin-left:35%;text-align:center;' class='btn btn-danger' ><a style='color:white;' href='index.php'>Back</a></button></tr>";
 
 // if everything is ok, try to upload file
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+      echo "<script>location.replace('processing.php')</script>";
     } else {
-        echo "Sorry, there was an error uploading your file.";
+      echo "<h4 style='margin-left:35%;'>Sorry,Error Occured please contact the Administrator</h4>";
     }
 }
 }
@@ -100,12 +107,12 @@ if ($uploadOk == 0) {
 // 1.READ FILES ROW AND CREATE AN ARRAY
 include 'dbconfig.php';
 $file = fopen("$target_file", 'r');
-while (($row = fgetcsv($file)) !== FALSE) {
-  //$line is an array of the csv elements
-echo "<script>location.replace('processing.php')</script>";
-  //2.LOOP THROUGH ALL FILE ROWS AND INSERT INTO DB;
-$sql = "insert into `redgate`.`table1` (msan,interface,svlan) values ('$row[0]','$row[1]','$row[2]');";
-$result = $conn->query($sql);
+while (($row = fgetcsv($file,0,",")) !== FALSE) {
+  //$line is an array of the csv elementsecho "<script>location.replace('processing.php')</script>";
+  //2.LOOP THROUGH ALL FILE ROWS AND INSERT INTO DB $row[i];
+$sql="insert into redgate.table1 (msan) values ('".$row[0]."')";
+// echo $row[0]. "</br>";
+$con = $conn->query($sql);
 
 }
 

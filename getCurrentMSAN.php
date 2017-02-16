@@ -7,7 +7,7 @@ include 'dbconfig.php';
 $sql = "
 Select ADSL_USER_NAME,NAS_PORT_ID,DSLAM from $testing_table where SUBSTR(SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'-')),
  instr(NAS_PORT_ID,':')) in (':$SVLAN-')
-and SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'.' ))='GigabitEthernet $old_gigabit.';";
+and SUBSTR(NAS_PORT_ID,1,instr(NAS_PORT_ID,'.'))='GigabitEthernet $old_gigabit.';";
 
  // $sql = "select * from redgate.table1 ";
 $result = $conn->query($sql);

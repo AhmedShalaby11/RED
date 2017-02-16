@@ -1,0 +1,842 @@
+insert into adsl_site (site_id,site,vsite,zone) values ('05-1-01-26','05-1-01-26','05-1-01-26','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('06-1-04-08','06-1-04-08','06-1-04-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('06-2-32-46','06-2-32-46','06-2-32-46','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('05-2-09-37','05-2-09-37','05-2-09-37','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('05-3-16-36','05-3-16-36','05-3-16-36','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('05-3-16-34','05-3-16-34','05-3-16-34','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('05-3-16-35','05-3-16-35','05-3-16-35','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-3-36-10','08-3-36-10','08-3-36-10','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-3-36-09','08-3-36-09','08-3-36-09','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-3-36-06','08-3-36-06','08-3-36-06','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-3-52-05','08-3-52-05','08-3-52-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-160','03-1-07-160','03-1-07-160','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-195','03-1-07-195','03-1-07-195','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-172','03-1-07-172','03-1-07-172','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-171','03-1-07-171','03-1-07-171','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-168','03-1-07-168','03-1-07-168','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-187','03-1-07-187','03-1-07-187','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-155','03-1-07-155','03-1-07-155','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-179','03-1-07-179','03-1-07-179','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-10-48','03-1-10-48','03-1-10-48','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-10-51','03-1-10-51','03-1-10-51','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-10-58','03-1-10-58','03-1-10-58','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-10-63','03-1-10-63','03-1-10-63','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-10-67','03-1-10-67','03-1-10-67','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-1-04-46','01-1-04-46','01-1-04-46','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-1-04-51','01-1-04-51','01-1-04-51','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-1-04-53','01-1-04-53','01-1-04-53','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-30-307','03-1-30-307','03-1-30-307','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-2-13-39','03-2-13-39','03-2-13-39','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-25-49','03-3-25-49','03-3-25-49','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-25-31','03-3-25-31','03-3-25-31','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-25-33','03-3-25-33','03-3-25-33','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-25-73','03-3-25-73','03-3-25-73','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-04-114','03-1-04-114','03-1-04-114','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-06-37','03-1-06-37','03-1-06-37','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-06-43','03-1-06-43','03-1-06-43','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-04-97','03-1-04-97','03-1-04-97','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-04-105','03-1-04-105','03-1-04-105','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-06-45','03-1-06-45','03-1-06-45','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-3-11-60','01-3-11-60','01-3-11-60','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-3-11-63','01-3-11-63','01-3-11-63','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-28-22','03-1-28-22','03-1-28-22','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-3-26-16','02-3-26-16','02-3-26-16','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-02-41','03-1-02-41','03-1-02-41','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-173','03-1-07-173','03-1-07-173','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-158','03-1-07-158','03-1-07-158','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-202','03-1-07-202','03-1-07-202','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-156','03-1-07-156','03-1-07-156','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-188','03-1-07-188','03-1-07-188','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-174','03-1-07-174','03-1-07-174','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-157','03-1-07-157','03-1-07-157','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-169','03-1-07-169','03-1-07-169','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-2-12-101','03-2-12-101','03-2-12-101','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-2-14-63','03-2-14-63','03-2-14-63','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-203','03-1-07-203','03-1-07-203','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-204','03-1-07-204','03-1-07-204','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-206','03-1-07-206','03-1-07-206','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-07-207','03-1-07-207','03-1-07-207','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-3-15-28','01-3-15-28','01-3-15-28','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-3-15-32','01-3-15-32','01-3-15-32','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-3-15-35','01-3-15-35','01-3-15-35','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-02-37','03-1-02-37','03-1-02-37','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-02-38','03-1-02-38','03-1-02-38','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-02-40','03-1-02-40','03-1-02-40','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-3-19-75','02-3-19-75','02-3-19-75','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('01-3-14-96','01-3-14-96','01-3-14-96','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-08-505','03-1-08-505','03-1-08-505','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-08-509','03-1-08-509','03-1-08-509','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-08-239','03-1-08-239','03-1-08-239','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-08-242','03-1-08-242','03-1-08-242','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-08-246','03-1-08-246','03-1-08-246','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-1-08-248','03-1-08-248','03-1-08-248','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-1-02-20','04-1-02-20','04-1-02-20','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-1-02-21','04-1-02-21','04-1-02-21','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-1-03-27','04-1-03-27','04-1-03-27','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-1-07-11','04-1-07-11','04-1-07-11','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-4-25-37','04-4-25-37','04-4-25-37','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-24-163','04-3-24-163','04-3-24-163','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-24-160','04-3-24-160','04-3-24-160','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-37-48','04-3-37-48','04-3-37-48','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-2-82-19','04-2-82-19','04-2-82-19','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-2-82-20','04-2-82-20','04-2-82-20','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-2-36-32','04-2-36-32','04-2-36-32','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-24-164','04-3-24-164','04-3-24-164','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-4-33-75','04-4-33-75','04-4-33-75','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-24-101','04-3-24-101','04-3-24-101','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-24-513','04-3-24-513','04-3-24-513','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-24-89','04-3-24-89','04-3-24-89','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-4-51-08','04-4-51-08','04-4-51-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-2-54-02','04-2-54-02','04-2-54-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('04-3-16-02','04-3-16-02','04-3-16-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-1-08-28','02-1-08-28','02-1-08-28','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-1-08-29','02-1-08-29','02-1-08-29','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-1-29-08','02-1-29-08','02-1-29-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-1-29-01','02-1-29-01','02-1-29-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('02-1-28-505','02-1-28-505','02-1-28-505','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-27-38','03-3-27-38','03-3-27-38','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-27-39','03-3-27-39','03-3-27-39','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('03-3-27-80','03-3-27-80','03-3-27-80','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-1-05-05','08-1-05-05','08-1-05-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-1-08-05','08-1-08-05','08-1-08-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-1-223-01','08-1-223-01','08-1-223-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-1-01-32','08-1-01-32','08-1-01-32','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-198-01','09-3-198-01','09-3-198-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-198-02','09-3-198-02','09-3-198-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-123-02','09-3-123-02','09-3-123-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-19-46','09-3-19-46','09-3-19-46','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-215-04','09-3-215-04','09-3-215-04','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-215-03','09-3-215-03','09-3-215-03','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-32-06','09-3-32-06','09-3-32-06','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-32-08','09-3-32-08','09-3-32-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-32-04','09-3-32-04','09-3-32-04','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-3-172-03','09-3-172-03','09-3-172-03','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-02-54','09-1-02-54','09-1-02-54','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-111-02','09-1-111-02','09-1-111-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-02-09','09-1-02-09','09-1-02-09','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-184-05','09-1-184-05','09-1-184-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-184-01','09-1-184-01','09-1-184-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-35-05','09-1-35-05','09-1-35-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-44-02','09-1-44-02','09-1-44-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-177-02','09-1-177-02','09-1-177-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-4-110-03','09-4-110-03','09-4-110-03','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-188-01','09-1-188-01','09-1-188-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-1-05-24','09-1-05-24','09-1-05-24','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('06-3-38-26','06-3-38-26','06-3-38-26','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-2-220-02','09-2-220-02','09-2-220-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-2-08-63','09-2-08-63','09-2-08-63','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('09-2-141-01','09-2-141-01','09-2-141-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-20-50','08-2-20-50','08-2-20-50','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-28-16','08-2-28-16','08-2-28-16','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-160-02','08-2-160-02','08-2-160-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-185-03','08-2-185-03','08-2-185-03','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-21-08','08-2-21-08','08-2-21-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-21-09','08-2-21-09','08-2-21-09','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-22-14','08-2-22-14','08-2-22-14','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('08-2-22-15','08-2-22-15','08-2-22-15','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-112','07-1-12-112','07-1-12-112','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-134','07-1-12-134','07-1-12-134','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-89','07-1-12-89','07-1-12-89','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-03-22','07-1-03-22','07-1-03-22','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-93','07-1-12-93','07-1-12-93','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-85','07-1-12-85','07-1-12-85','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-90','07-1-12-90','07-1-12-90','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-87','07-1-12-87','07-1-12-87','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-97','07-1-12-97','07-1-12-97','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-88','07-1-12-88','07-1-12-88','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-12-102','07-1-12-102','07-1-12-102','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-03-37','07-1-03-37','07-1-03-37','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-06-503','07-2-06-503','07-2-06-503','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-09-27','07-2-09-27','07-2-09-27','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-344-05','07-2-344-05','07-2-344-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-15-02','07-2-15-02','07-2-15-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-281-03','07-2-281-03','07-2-281-03','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-15-11','07-2-15-11','07-2-15-11','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-1-249-02','07-1-249-02','07-1-249-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-2-03-506','07-2-03-506','07-2-03-506','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-3-19-45','07-3-19-45','07-3-19-45','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-3-19-40','07-3-19-40','07-3-19-40','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-4-57-05','07-4-57-05','07-4-57-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-3-25-503','07-3-25-503','07-3-25-503','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-3-25-501','07-3-25-501','07-3-25-501','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-3-25-06','07-3-25-06','07-3-25-06','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-3-47-02','07-3-47-02','07-3-47-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-4-381-05','07-4-381-05','07-4-381-05','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-4-381-08','07-4-381-08','07-4-381-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-4-381-06','07-4-381-06','07-4-381-06','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-5-35-42','07-5-35-42','07-5-35-42','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-5-117-103','07-5-117-103','07-5-117-103','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-5-38-17','07-5-38-17','07-5-38-17','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-5-114-501','07-5-114-501','07-5-114-501','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-5-390-02','07-5-390-02','07-5-390-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('07-5-390-01','07-5-390-01','07-5-390-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('14-1-02-13','14-1-02-13','14-1-02-13','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('13-1-05-101','13-1-05-101','13-1-05-101','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('13-1-05-103','13-1-05-103','13-1-05-103','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('13-1-05-96','13-1-05-96','13-1-05-96','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('13-1-05-95','13-1-05-95','13-1-05-95','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('13-1-05-89','13-1-05-89','13-1-05-89','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('13-3-13-15','13-3-13-15','13-3-13-15','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-12-62','10-2-12-62','10-2-12-62','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-12-55','10-2-12-55','10-2-12-55','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-12-56','10-2-12-56','10-2-12-56','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-12-58','10-2-12-58','10-2-12-58','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-12-59','10-2-12-59','10-2-12-59','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-91-08','10-2-91-08','10-2-91-08','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-2-91-06','10-2-91-06','10-2-91-06','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-3-76-03','10-3-76-03','10-3-76-03','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-221-02','10-1-221-02','10-1-221-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-221-01','10-1-221-01','10-1-221-01','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-02-22','10-1-02-22','10-1-02-22','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-05-18','10-1-05-18','10-1-05-18','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-05-19','10-1-05-19','10-1-05-19','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-05-20','10-1-05-20','10-1-05-20','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-05-21','10-1-05-21','10-1-05-21','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-05-22','10-1-05-22','10-1-05-22','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-50-02','10-1-50-02','10-1-50-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-09-27','10-1-09-27','10-1-09-27','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-08-64','10-1-08-64','10-1-08-64','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-08-41','10-1-08-41','10-1-08-41','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('10-1-08-59','10-1-08-59','10-1-08-59','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-3-21-36','11-3-21-36','11-3-21-36','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-3-21-34','11-3-21-34','11-3-21-34','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-3-21-35','11-3-21-35','11-3-21-35','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-3-21-32','11-3-21-32','11-3-21-32','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-3-21-33','11-3-21-33','11-3-21-33','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-3-21-31','11-3-21-31','11-3-21-31','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-1-70-23','11-1-70-23','11-1-70-23','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-1-70-17','11-1-70-17','11-1-70-17','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-1-171-02','11-1-171-02','11-1-171-02','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('11-1-05-04','11-1-05-04','11-1-05-04','ZoneFiber')
+
+insert into adsl_site (site_id,site,vsite,zone) values ('12-1-04-13','12-1-04-13','12-1-04-13','ZoneFiber’)
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('05-1-01-26','05-1-01-26',400,246062,'N','Y',6,'05-1-01-26');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('06-1-04-08','06-1-04-08',400,246062,'N','Y',6,'06-1-04-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('06-2-32-46','06-2-32-46',400,246062,'N','Y',6,'06-2-32-46');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('05-2-09-37','05-2-09-37',400,246062,'N','Y',6,'05-2-09-37');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('05-3-16-36','05-3-16-36',400,246062,'N','Y',6,'05-3-16-36');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('05-3-16-34','05-3-16-34',400,246062,'N','Y',6,'05-3-16-34');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('05-3-16-35','05-3-16-35',400,246062,'N','Y',6,'05-3-16-35');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-3-36-10','08-3-36-10',400,246062,'N','Y',6,'08-3-36-10');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-3-36-09','08-3-36-09',400,246062,'N','Y',6,'08-3-36-09');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-3-36-06','08-3-36-06',400,246062,'N','Y',6,'08-3-36-06');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-3-52-05','08-3-52-05',400,246062,'N','Y',6,'08-3-52-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-160','03-1-07-160',400,246062,'N','Y',6,'03-1-07-160');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-195','03-1-07-195',400,246062,'N','Y',6,'03-1-07-195');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-172','03-1-07-172',400,246062,'N','Y',6,'03-1-07-172');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-171','03-1-07-171',400,246062,'N','Y',6,'03-1-07-171');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-168','03-1-07-168',400,246062,'N','Y',6,'03-1-07-168');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-187','03-1-07-187',400,246062,'N','Y',6,'03-1-07-187');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-155','03-1-07-155',400,246062,'N','Y',6,'03-1-07-155');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-179','03-1-07-179',400,246062,'N','Y',6,'03-1-07-179');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-10-48','03-1-10-48',400,246062,'N','Y',6,'03-1-10-48');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-10-51','03-1-10-51',400,246062,'N','Y',6,'03-1-10-51');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-10-58','03-1-10-58',400,246062,'N','Y',6,'03-1-10-58');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-10-63','03-1-10-63',400,246062,'N','Y',6,'03-1-10-63');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-10-67','03-1-10-67',400,246062,'N','Y',6,'03-1-10-67');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-1-04-46','01-1-04-46',400,246062,'N','Y',6,'01-1-04-46');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-1-04-51','01-1-04-51',400,246062,'N','Y',6,'01-1-04-51');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-1-04-53','01-1-04-53',400,246062,'N','Y',6,'01-1-04-53');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-30-307','03-1-30-307',400,246062,'N','Y',6,'03-1-30-307');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-2-13-39','03-2-13-39',400,246062,'N','Y',6,'03-2-13-39');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-25-49','03-3-25-49',400,246062,'N','Y',6,'03-3-25-49');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-25-31','03-3-25-31',400,246062,'N','Y',6,'03-3-25-31');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-25-33','03-3-25-33',400,246062,'N','Y',6,'03-3-25-33');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-25-73','03-3-25-73',400,246062,'N','Y',6,'03-3-25-73');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-04-114','03-1-04-114',400,246062,'N','Y',6,'03-1-04-114');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-06-37','03-1-06-37',400,246062,'N','Y',6,'03-1-06-37');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-06-43','03-1-06-43',400,246062,'N','Y',6,'03-1-06-43');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-04-97','03-1-04-97',400,246062,'N','Y',6,'03-1-04-97');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-04-105','03-1-04-105',400,246062,'N','Y',6,'03-1-04-105');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-06-45','03-1-06-45',400,246062,'N','Y',6,'03-1-06-45');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-3-11-60','01-3-11-60',400,246062,'N','Y',6,'01-3-11-60');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-3-11-63','01-3-11-63',400,246062,'N','Y',6,'01-3-11-63');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-28-22','03-1-28-22',400,246062,'N','Y',6,'03-1-28-22');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-3-26-16','02-3-26-16',400,246062,'N','Y',6,'02-3-26-16');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-02-41','03-1-02-41',400,246062,'N','Y',6,'03-1-02-41');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-173','03-1-07-173',400,246062,'N','Y',6,'03-1-07-173');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-158','03-1-07-158',400,246062,'N','Y',6,'03-1-07-158');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-202','03-1-07-202',400,246062,'N','Y',6,'03-1-07-202');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-156','03-1-07-156',400,246062,'N','Y',6,'03-1-07-156');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-188','03-1-07-188',400,246062,'N','Y',6,'03-1-07-188');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-174','03-1-07-174',400,246062,'N','Y',6,'03-1-07-174');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-157','03-1-07-157',400,246062,'N','Y',6,'03-1-07-157');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-169','03-1-07-169',400,246062,'N','Y',6,'03-1-07-169');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-2-12-101','03-2-12-101',400,246062,'N','Y',6,'03-2-12-101');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-2-14-63','03-2-14-63',400,246062,'N','Y',6,'03-2-14-63');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-203','03-1-07-203',400,246062,'N','Y',6,'03-1-07-203');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-204','03-1-07-204',400,246062,'N','Y',6,'03-1-07-204');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-206','03-1-07-206',400,246062,'N','Y',6,'03-1-07-206');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-07-207','03-1-07-207',400,246062,'N','Y',6,'03-1-07-207');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-3-15-28','01-3-15-28',400,246062,'N','Y',6,'01-3-15-28');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-3-15-32','01-3-15-32',400,246062,'N','Y',6,'01-3-15-32');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-3-15-35','01-3-15-35',400,246062,'N','Y',6,'01-3-15-35');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-02-37','03-1-02-37',400,246062,'N','Y',6,'03-1-02-37');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-02-38','03-1-02-38',400,246062,'N','Y',6,'03-1-02-38');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-02-40','03-1-02-40',400,246062,'N','Y',6,'03-1-02-40');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-3-19-75','02-3-19-75',400,246062,'N','Y',6,'02-3-19-75');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('01-3-14-96','01-3-14-96',400,246062,'N','Y',6,'01-3-14-96');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-08-505','03-1-08-505',400,246062,'N','Y',6,'03-1-08-505');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-08-509','03-1-08-509',400,246062,'N','Y',6,'03-1-08-509');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-08-239','03-1-08-239',400,246062,'N','Y',6,'03-1-08-239');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-08-242','03-1-08-242',400,246062,'N','Y',6,'03-1-08-242');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-08-246','03-1-08-246',400,246062,'N','Y',6,'03-1-08-246');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-1-08-248','03-1-08-248',400,246062,'N','Y',6,'03-1-08-248');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-1-02-20','04-1-02-20',400,246062,'N','Y',6,'04-1-02-20');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-1-02-21','04-1-02-21',400,246062,'N','Y',6,'04-1-02-21');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-1-03-27','04-1-03-27',400,246062,'N','Y',6,'04-1-03-27');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-1-07-11','04-1-07-11',400,246062,'N','Y',6,'04-1-07-11');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-4-25-37','04-4-25-37',400,246062,'N','Y',6,'04-4-25-37');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-24-163','04-3-24-163',400,246062,'N','Y',6,'04-3-24-163');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-24-160','04-3-24-160',400,246062,'N','Y',6,'04-3-24-160');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-37-48','04-3-37-48',400,246062,'N','Y',6,'04-3-37-48');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-2-82-19','04-2-82-19',400,246062,'N','Y',6,'04-2-82-19');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-2-82-20','04-2-82-20',400,246062,'N','Y',6,'04-2-82-20');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-2-36-32','04-2-36-32',400,246062,'N','Y',6,'04-2-36-32');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-24-164','04-3-24-164',400,246062,'N','Y',6,'04-3-24-164');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-4-33-75','04-4-33-75',400,246062,'N','Y',6,'04-4-33-75');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-24-101','04-3-24-101',400,246062,'N','Y',6,'04-3-24-101');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-24-513','04-3-24-513',400,246062,'N','Y',6,'04-3-24-513');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-24-89','04-3-24-89',400,246062,'N','Y',6,'04-3-24-89');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-4-51-08','04-4-51-08',400,246062,'N','Y',6,'04-4-51-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-2-54-02','04-2-54-02',400,246062,'N','Y',6,'04-2-54-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('04-3-16-02','04-3-16-02',400,246062,'N','Y',6,'04-3-16-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-1-08-28','02-1-08-28',400,246062,'N','Y',6,'02-1-08-28');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-1-08-29','02-1-08-29',400,246062,'N','Y',6,'02-1-08-29');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-1-29-08','02-1-29-08',400,246062,'N','Y',6,'02-1-29-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-1-29-01','02-1-29-01',400,246062,'N','Y',6,'02-1-29-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('02-1-28-505','02-1-28-505',400,246062,'N','Y',6,'02-1-28-505');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-27-38','03-3-27-38',400,246062,'N','Y',6,'03-3-27-38');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-27-39','03-3-27-39',400,246062,'N','Y',6,'03-3-27-39');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('03-3-27-80','03-3-27-80',400,246062,'N','Y',6,'03-3-27-80');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-1-05-05','08-1-05-05',400,246062,'N','Y',6,'08-1-05-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-1-08-05','08-1-08-05',400,246062,'N','Y',6,'08-1-08-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-1-223-01','08-1-223-01',400,246062,'N','Y',6,'08-1-223-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-1-01-32','08-1-01-32',400,246062,'N','Y',6,'08-1-01-32');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-198-01','09-3-198-01',400,246062,'N','Y',6,'09-3-198-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-198-02','09-3-198-02',400,246062,'N','Y',6,'09-3-198-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-123-02','09-3-123-02',400,246062,'N','Y',6,'09-3-123-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-19-46','09-3-19-46',400,246062,'N','Y',6,'09-3-19-46');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-215-04','09-3-215-04',400,246062,'N','Y',6,'09-3-215-04');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-215-03','09-3-215-03',400,246062,'N','Y',6,'09-3-215-03');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-32-06','09-3-32-06',400,246062,'N','Y',6,'09-3-32-06');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-32-08','09-3-32-08',400,246062,'N','Y',6,'09-3-32-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-32-04','09-3-32-04',400,246062,'N','Y',6,'09-3-32-04');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-3-172-03','09-3-172-03',400,246062,'N','Y',6,'09-3-172-03');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-02-54','09-1-02-54',400,246062,'N','Y',6,'09-1-02-54');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-111-02','09-1-111-02',400,246062,'N','Y',6,'09-1-111-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-02-09','09-1-02-09',400,246062,'N','Y',6,'09-1-02-09');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-184-05','09-1-184-05',400,246062,'N','Y',6,'09-1-184-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-184-01','09-1-184-01',400,246062,'N','Y',6,'09-1-184-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-35-05','09-1-35-05',400,246062,'N','Y',6,'09-1-35-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-44-02','09-1-44-02',400,246062,'N','Y',6,'09-1-44-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-177-02','09-1-177-02',400,246062,'N','Y',6,'09-1-177-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-4-110-03','09-4-110-03',400,246062,'N','Y',6,'09-4-110-03');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-188-01','09-1-188-01',400,246062,'N','Y',6,'09-1-188-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-1-05-24','09-1-05-24',400,246062,'N','Y',6,'09-1-05-24');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('06-3-38-26','06-3-38-26',400,246062,'N','Y',6,'06-3-38-26');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-2-220-02','09-2-220-02',400,246062,'N','Y',6,'09-2-220-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-2-08-63','09-2-08-63',400,246062,'N','Y',6,'09-2-08-63');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('09-2-141-01','09-2-141-01',400,246062,'N','Y',6,'09-2-141-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-20-50','08-2-20-50',400,246062,'N','Y',6,'08-2-20-50');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-28-16','08-2-28-16',400,246062,'N','Y',6,'08-2-28-16');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-160-02','08-2-160-02',400,246062,'N','Y',6,'08-2-160-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-185-03','08-2-185-03',400,246062,'N','Y',6,'08-2-185-03');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-21-08','08-2-21-08',400,246062,'N','Y',6,'08-2-21-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-21-09','08-2-21-09',400,246062,'N','Y',6,'08-2-21-09');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-22-14','08-2-22-14',400,246062,'N','Y',6,'08-2-22-14');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('08-2-22-15','08-2-22-15',400,246062,'N','Y',6,'08-2-22-15');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-112','07-1-12-112',400,246062,'N','Y',6,'07-1-12-112');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-134','07-1-12-134',400,246062,'N','Y',6,'07-1-12-134');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-89','07-1-12-89',400,246062,'N','Y',6,'07-1-12-89');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-03-22','07-1-03-22',400,246062,'N','Y',6,'07-1-03-22');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-93','07-1-12-93',400,246062,'N','Y',6,'07-1-12-93');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-85','07-1-12-85',400,246062,'N','Y',6,'07-1-12-85');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-90','07-1-12-90',400,246062,'N','Y',6,'07-1-12-90');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-87','07-1-12-87',400,246062,'N','Y',6,'07-1-12-87');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-97','07-1-12-97',400,246062,'N','Y',6,'07-1-12-97');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-88','07-1-12-88',400,246062,'N','Y',6,'07-1-12-88');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-12-102','07-1-12-102',400,246062,'N','Y',6,'07-1-12-102');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-03-37','07-1-03-37',400,246062,'N','Y',6,'07-1-03-37');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-06-503','07-2-06-503',400,246062,'N','Y',6,'07-2-06-503');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-09-27','07-2-09-27',400,246062,'N','Y',6,'07-2-09-27');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-344-05','07-2-344-05',400,246062,'N','Y',6,'07-2-344-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-15-02','07-2-15-02',400,246062,'N','Y',6,'07-2-15-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-281-03','07-2-281-03',400,246062,'N','Y',6,'07-2-281-03');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-15-11','07-2-15-11',400,246062,'N','Y',6,'07-2-15-11');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-1-249-02','07-1-249-02',400,246062,'N','Y',6,'07-1-249-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-2-03-506','07-2-03-506',400,246062,'N','Y',6,'07-2-03-506');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-3-19-45','07-3-19-45',400,246062,'N','Y',6,'07-3-19-45');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-3-19-40','07-3-19-40',400,246062,'N','Y',6,'07-3-19-40');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-4-57-05','07-4-57-05',400,246062,'N','Y',6,'07-4-57-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-3-25-503','07-3-25-503',400,246062,'N','Y',6,'07-3-25-503');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-3-25-501','07-3-25-501',400,246062,'N','Y',6,'07-3-25-501');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-3-25-06','07-3-25-06',400,246062,'N','Y',6,'07-3-25-06');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-3-47-02','07-3-47-02',400,246062,'N','Y',6,'07-3-47-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-4-381-05','07-4-381-05',400,246062,'N','Y',6,'07-4-381-05');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-4-381-08','07-4-381-08',400,246062,'N','Y',6,'07-4-381-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-4-381-06','07-4-381-06',400,246062,'N','Y',6,'07-4-381-06');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-5-35-42','07-5-35-42',400,246062,'N','Y',6,'07-5-35-42');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-5-117-103','07-5-117-103',400,246062,'N','Y',6,'07-5-117-103');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-5-38-17','07-5-38-17',400,246062,'N','Y',6,'07-5-38-17');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-5-114-501','07-5-114-501',400,246062,'N','Y',6,'07-5-114-501');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-5-390-02','07-5-390-02',400,246062,'N','Y',6,'07-5-390-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('07-5-390-01','07-5-390-01',400,246062,'N','Y',6,'07-5-390-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('14-1-02-13','14-1-02-13',400,246062,'N','Y',6,'14-1-02-13');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('13-1-05-101','13-1-05-101',400,246062,'N','Y',6,'13-1-05-101');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('13-1-05-103','13-1-05-103',400,246062,'N','Y',6,'13-1-05-103');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('13-1-05-96','13-1-05-96',400,246062,'N','Y',6,'13-1-05-96');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('13-1-05-95','13-1-05-95',400,246062,'N','Y',6,'13-1-05-95');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('13-1-05-89','13-1-05-89',400,246062,'N','Y',6,'13-1-05-89');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('13-3-13-15','13-3-13-15',400,246062,'N','Y',6,'13-3-13-15');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-12-62','10-2-12-62',400,246062,'N','Y',6,'10-2-12-62');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-12-55','10-2-12-55',400,246062,'N','Y',6,'10-2-12-55');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-12-56','10-2-12-56',400,246062,'N','Y',6,'10-2-12-56');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-12-58','10-2-12-58',400,246062,'N','Y',6,'10-2-12-58');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-12-59','10-2-12-59',400,246062,'N','Y',6,'10-2-12-59');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-91-08','10-2-91-08',400,246062,'N','Y',6,'10-2-91-08');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-2-91-06','10-2-91-06',400,246062,'N','Y',6,'10-2-91-06');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-3-76-03','10-3-76-03',400,246062,'N','Y',6,'10-3-76-03');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-221-02','10-1-221-02',400,246062,'N','Y',6,'10-1-221-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-221-01','10-1-221-01',400,246062,'N','Y',6,'10-1-221-01');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-02-22','10-1-02-22',400,246062,'N','Y',6,'10-1-02-22');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-05-18','10-1-05-18',400,246062,'N','Y',6,'10-1-05-18');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-05-19','10-1-05-19',400,246062,'N','Y',6,'10-1-05-19');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-05-20','10-1-05-20',400,246062,'N','Y',6,'10-1-05-20');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-05-21','10-1-05-21',400,246062,'N','Y',6,'10-1-05-21');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-05-22','10-1-05-22',400,246062,'N','Y',6,'10-1-05-22');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-50-02','10-1-50-02',400,246062,'N','Y',6,'10-1-50-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-09-27','10-1-09-27',400,246062,'N','Y',6,'10-1-09-27');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-08-64','10-1-08-64',400,246062,'N','Y',6,'10-1-08-64');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-08-41','10-1-08-41',400,246062,'N','Y',6,'10-1-08-41');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('10-1-08-59','10-1-08-59',400,246062,'N','Y',6,'10-1-08-59');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-3-21-36','11-3-21-36',400,246062,'N','Y',6,'11-3-21-36');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-3-21-34','11-3-21-34',400,246062,'N','Y',6,'11-3-21-34');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-3-21-35','11-3-21-35',400,246062,'N','Y',6,'11-3-21-35');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-3-21-32','11-3-21-32',400,246062,'N','Y',6,'11-3-21-32');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-3-21-33','11-3-21-33',400,246062,'N','Y',6,'11-3-21-33');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-3-21-31','11-3-21-31',400,246062,'N','Y',6,'11-3-21-31');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-1-70-23','11-1-70-23',400,246062,'N','Y',6,'11-1-70-23');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-1-70-17','11-1-70-17',400,246062,'N','Y',6,'11-1-70-17');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-1-171-02','11-1-171-02',400,246062,'N','Y',6,'11-1-171-02');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('11-1-05-04','11-1-05-04',400,246062,'N','Y',6,'11-1-05-04');
+
+insert into adsl_cabinets (cabinet_name,arabic_name,total_number_of_ports,site_id,is_deleted,BRAS_dynamic,protocol_id,msan_id) values ('12-1-04-13','12-1-04-13',400,246062,'N','Y',6,'12-1-04-13');

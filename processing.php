@@ -32,10 +32,6 @@
   </div>
 </div>
 
-<?php
-
-
-?>
 <!-- change this -->
 
 
@@ -77,13 +73,13 @@ $('body').append(response);
 });
 
 }
-setTimeout(explode4, 5000);
+setTimeout(explode4, 1000);
 
 }
-setTimeout(explode3, 3500);
+setTimeout(explode3, 1000);
 
 }
-setTimeout(explode2, 2500);
+setTimeout(explode2, 500);
 }
 setTimeout(explode, 500);
 

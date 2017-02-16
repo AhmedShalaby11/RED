@@ -54,6 +54,7 @@ while ($row = $res->fetch_array(MYSQLI_NUM))
 </script>
 </div>
 
+
 <script>
 $(document).ready(function(){
   $('.canvasjs-chart-credit').text('Integration Management Reporting');

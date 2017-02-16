@@ -9,7 +9,10 @@ echo "<html>
 <meta charset='utf-8'>
 <script src='http://canvasjs.com/assets/script/canvasjs.min.js'></script>
 
+<style>
+li a{color:#e21a1a;};
 
+</style>
   </head>
 
 
@@ -36,16 +39,20 @@ echo "<html>
 </div>";
 
 echo" <ul class='nav nav-tabs container'>
-  <li role='presentation' ><a id='show_user_access' onclick='get_access();' type='submit' href='#'><i class='fa fa-users' aria-hidden='true'></i> Users and Privilages</a></li>
+  <li role='presentation' ><a id='show_user_access' onclick='get_access();' type='submit' href='#'><i class='fa fa-users' aria-hidden='true'></i> Roles</a></li>
   <li role='presentation'><a id='show_history' name='show_history' onclick='append_History();' type='submit' href='#'><i class='fa fa-history'></i> History</a></li>
   <li role='presentation'><a id='show_management' name='show_management'   href='#'><i class='fa fa-user-circle fa-w3x'></i> Management</a></li>
   <li role='presentation'><a href='#' type='submit' onclick='append_Reporting();' name='show_report' id='show_report'><i class='fa fa-area-chart fa-w3x'></i> Trends</a></li>
+  <li role='presentation' id='li_messages' name='messages'><a href='#' onClick='' ><i class='fa fa-heartbeat' aria-hidden='true'></i> Discrepancies</a></li>
+
 </ul><div id='ul_div_body' class='container'>
 
 
 
 </div>";
  ?>
+
+
 <script type="text/javascript">
    function get_access(){
     $.ajax({
@@ -61,6 +68,7 @@ echo" <ul class='nav nav-tabs container'>
 
   });
 }
+
 
 </script>
 

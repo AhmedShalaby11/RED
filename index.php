@@ -5,10 +5,11 @@
 <meta charset="utf-8">
 <?php  include 'lib1.php';include 'access.php';
 ?>
+
   </head>
 
 
-  <body>
+  <body  >
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -41,8 +42,8 @@ include 'dbconfig.php';
   <ul class="nav nav-tabs">
     <!-- 1.a -->
   <li role="presentation" id="li_data" name="data"><a id="getDT" href="#" onClick="append_userMSANtable();" ><span class="glyphicon glyphicon-floppy-disk"></span> Current MSANs <span id='msan_count'  class="badge"></span></a> </li>
-  <!-- <li role="presentation" id="li_action" name="action"><a href="#" onClick="insertUpdatePanel();" ><span class="glyphicon glyphicon-level-up"></span> Update Bulk MSANs</a></li> -->
-  <!-- <li role="presentation" id="li_messages" name="messages"><a href="#" onClick="action2();" ><span class="glyphicon glyphicon- phone-alt"></span> Update a Landline</a></li> -->
+  <li role="presentation" id="li_action" name="action"><a href="#" onClick="insertUpdatePanel();" ><i class='fa fa-database fa-w3x'></i> ِِADSL Database Ops</a></li>
+
 </ul>
 
 
@@ -76,6 +77,7 @@ $(document).ready(function() {
 
 <script type="text/javascript">
 function append_userMSANtable(){
+$("#msan_count").hide();
   $('#ul_div_body_panel').empty();
 $('#ul_div_body').empty();
 if ($('#input_getCurrentMSANs').length !== 1){
@@ -85,6 +87,7 @@ $("#ul_div_body").append("<table class='container table ' style='width:500px;' i
 
 }
   function getDataTable(){
+
     if($("#old_gigabit").val() =="" || $("#SVLAN").val() =="")
     {$('#error').remove();
       $('#ul_div_body').append("<h3 id='error'>Please check inputs</h3>");
@@ -108,6 +111,7 @@ $("#span_interface").text(old_gigabit);
 $("#span_SVLAN").text(SVLAN);
 
           $('#ul_div_body').append(Response);
+          $("#msan_count").show();
 $('#table_MSAN').DataTable();
 $("#input_getCurrentMSANs").remove();
 
@@ -122,7 +126,7 @@ function insertUpdatePanel(){
 $("#ul_div_body_panel").empty();
     $('#ul_div_body').empty();
     $('#ul_div_body').append("<div id='uploadContainer' class='container'></div>");
-    $('#ul_div_body_panel').append("<ul style='margin-top:20px;' class='nav nav-tabs'><li role='presentation' id='uploadContainer_upload' ><a onClick='append_uploadDiv();' href='#'>Upload data</a><span class=''></span></li><li  id='uploadcontainer_comparison' role='presentation'><a href='#'  onClick='append_comparisonDiv();'>Comparison</a></li></ul>");
+    $('#ul_div_body_panel').append("<ul style='margin-top:20px;' class='nav nav-tabs'><li role='presentation' id='uploadContainer_upload' ><a onClick='append_uploadDiv();' href='#'>Sync Radius</a><span class=''></span></li><li  id='uploadcontainer_comparison' role='presentation'><a href='#'  onClick='append_comparisonDiv();'>Radius Cabinets</a></li></ul>");
 
 }
 function action2(){
@@ -151,8 +155,8 @@ function append_uploadDiv()
    $('ul li').removeClass('Active');
 
 $("#ul_div_body").empty();
-    $("#ul_div_body").append("<img  style='float:right;width:90px;margin-right:10%;margin-top:3%;' src='uploads/images/documentslogo.png' id='databaseLogo'/><div class='bs-callout-red bs-callout-danger'> <h5><h4 style='color:red'>Bulk Update Wizard</h4> </br> 1.Select your file with <kbd>CSV</kbd> format. </br> 2.Click <kbd>Upload file</kbd> to insert the data. </br> 3.File is seperated -cells- with <kbd>,</kbd> .</h5></div>");
-  $("#ul_div_body").append("<form action='getData.php' method='post' enctype='multipart/form-data'><table><tr><td>Select File </td><td><input type='file' name='fileToUpload' id='fileToUpload'></td><td>&nbsp;</td><td><input type='submit' value='Upload File' class='btn btn-sm btn-danger' name='submit'></td></tr></table></form>");
+    $("#ul_div_body").append("<img  style='float:right;width:90px;margin-right:10%;margin-top:3%;' src='uploads/images/documentslogo.png' id='databaseLogo'/><div class='bs-callout-red bs-callout-danger'> <h5><h4 style='color:red'>Bulk Update Wizard</h4> </br> 1.Select your file with <kbd>CSV</kbd> format. </br> 2.Click <kbd>Sync</kbd> to insert the data. </br> 3.File is seperated -cells- with <kbd>,</kbd> .</h5></div>");
+  $("#ul_div_body").append("<form action='upload.php' method='post' enctype='multipart/form-data'><table><tr><td>Select File </td><td><input type='file' name='fileToUpload' id='fileToUpload'></td><td>&nbsp;</td><td><input type='submit' value='Sync' class='btn btn-sm btn-danger' name='submit'></td></tr></table></form>");
   $('#uploadContainer_upload').addClass('Active');
 $("#ul_div_body").hide();
     $("#ul_div_body").slideDown(700);
@@ -207,10 +211,10 @@ url:'comparison.php',
         $("#uploadcontainer_comparison").addClass('Active');
            //this is to append the merge accept div for the tabled data..
            $("#ul_div_body").append("<div id='div_merge_confirmation' class='container'></div>")
-           $("#div_merge_confirmation").append("<div id='div_merge_confirmation_ctrls' style='width:60%;margin-left:0%;' class='bs-callout bs-callout-red' > <h4 style='color:red;'>Data Staging</h4> <h5>Use <kbd>Merge</kbd> to replace the <code>Old Interface</code> with <code>New Interface</code>. </h5></div>");
+           $("#div_merge_confirmation").append("<div id='div_merge_confirmation_ctrls' style='width:60%;margin-left:0%;' class='bs-callout bs-callout-red' > <h4 style='color:red;'>Data Staging</h4> <h5>Showing the Radius Cabinets. </h5></div>");
           $('#ul_div_body').append(Response);
 
-      $('#example').DataTable();
+
 
       }
 

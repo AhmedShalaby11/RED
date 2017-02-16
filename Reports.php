@@ -4,7 +4,7 @@
 <tr>
 
 <div class="container" id='firstReport' >
-<ul class='nav nav-pills'><li role='presentation' ><a id='show_add_trend' onclick='get_add_trend();' type='submit' href='#'><i class='fa fa-bar-chart' aria-hidden='true'></i> Add Trend</a></li></div></br><hr>
+<ul class='nav nav-pills'><li role='presentation' ><a id='show_add_trend' onclick='get_add_trend();' type='submit' href='#'><i class='fa fa-bar-chart' aria-hidden='true'></i> Add Trend</a></li></div>
 <div class="ul_div_body"></div>
 
   <iframe id="frame1"  src="getreport.php" width="100%" height="400px" style="border-color:white;border-width:0px;" sandbox="allow-scripts"></iframe>

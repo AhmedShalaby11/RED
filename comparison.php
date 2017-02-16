@@ -12,17 +12,17 @@
     include 'dbconfig.php';
     //1.Get the old data.
 
-     $sql = "select  interface as 'interface' from redgate.table1  ";
+     $sql = "select  msan as 'msan' from $database.$radius_table   ";
     $result = $conn->query($sql);
 
     //2.Append tabled data.
-echo "<button id='button_staging_merge' onclick='merge();' class='btn btn-danger' >Migrate interfaces</button>";
-echo "<button id='button_Commit' style='margin-left:10px;' onclick='commit();' class='btn btn-success ' >Commit</button> </br> </br>";
-    echo "<table id='example' class='display' cellspacing='3' style='text-align:center;' width='100%'>";
+// echo "<button id='button_staging_merge' onclick='merge();' class='btn btn-danger' >Migrate interfaces</button>";
+// echo "<button id='button_Commit' style='margin-left:10px;' onclick='commit();' class='btn btn-success ' >Commit</button> </br> </br>";
+    echo "<div class='container'><table id='example' class='display' cellspacing='3' style='text-align:center;' width='100%'>";
     echo " <thead>
                 <tr style='text-align:center;'>
-                <th>Old Interface</th>
-                <th>New Interface</th>
+                <th  style='text-align:center;>Radius Cabinet</th>
+
 
 
                 </tr>
@@ -30,8 +30,8 @@ echo "<button id='button_Commit' style='margin-left:10px;' onclick='commit();' c
             <tfoot>
                 <tr>
 
-                    <th>Old Interface</th>
-                    <th>New Interface</th>
+                    <th  style='text-align:center;>Radius Cabinet</th>
+
 
 
                 </tr>
@@ -40,27 +40,20 @@ echo "<button id='button_Commit' style='margin-left:10px;' onclick='commit();' c
     while ($row = $result->fetch_array(MYSQLI_NUM))
     {
 
-      $pieces = explode(" ", $row[0]);
-      if ($pieces[0] == "GigabitEthernet" )
-      {
-        echo ("<tr ><td style ='font-weight:bold;'>".$row[0]."</td><td style ='font-weight:bold;'>".$pieces[1]."</td></tr>");
-// echo "not null";
-}
-else
-{
-  // no records .
-  echo ("<tr ><td style ='font-weight:bold;'>".$row[0]."</td><td style ='font-weight:bold;'>Updated</td></tr>");
 
-}
+
+
+        echo ("<tr ><td style ='font-weight:bold;'>".$row[0]."</td></tr>");
+
 
 
 
 
     }
 
-    echo "</tbody></table>"; //Close the table in HTML
+    echo "</tbody></table></div>"; //Close the table in HTML
 
-
+echo "  <script>$('#example').DataTable()</script>";
 
 
 

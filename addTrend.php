@@ -1,9 +1,9 @@
 <?php
 include 'lib1.php';
 $template = "no";
-$header = "Add new trend  <i class='fa fa-line-chart fa-w3x' aria-hidden='true'></i>";
+$header = "<h4>Add new trend  <i class='fa fa-line-chart fa-w3x' aria-hidden='true'></i></h4>";
 $color= "red";
-$message1 = "The charts will be up-to-date along with the data stored in the database.";
+$message1 = "<h6>The charts will be up-to-date along with the data stored in the database.</h6>";
 $message2= "";
 $add_style = "";
 include 'sidePanel.php';

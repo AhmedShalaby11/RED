@@ -1,0 +1,16 @@
+<?php
+include 'dbconfig.php';
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ?>

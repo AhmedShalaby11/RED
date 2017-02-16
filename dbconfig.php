@@ -10,6 +10,7 @@ $password = "ahmedtato1";
 $database = "redgate";
 $testing_table ="redgate.radius";
 $testing_table2 = "table_id_log";
+$radius_table = "table1";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
